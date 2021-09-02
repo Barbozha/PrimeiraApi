@@ -28,7 +28,7 @@ public class MinhapiApplication implements CommandLineRunner{
 		Usuario us4 = new Usuario(null, "Ana Rita de Cássia", "ana", "123456");
 		Usuario us5 = new Usuario(null, "Leonardo Migliori", "leonardo", "123456");
 		
-		usuarioRepository.saveAll(Arrays.asList(us1,us2,us3,us4));
+		usuarioRepository.saveAll(Arrays.asList(us1,us2,us3,us4,us5));
 		
 	}
 
